@@ -1,0 +1,36 @@
+Damage Control — End User License
+
+Copyright © 2026 Dasannn. All rights reserved.
+
+This software is licensed, not sold. The source code is not published and is not
+covered by any open source license.
+
+YOU MAY:
+
+  - Download the compiled plugin and run it on Minecraft servers you operate or
+    administer, on any number of servers, for any purpose including commercial
+    ones.
+  - Edit the configuration and language files the plugin generates on your
+    server.
+  - Make backup copies of the plugin file for your own use.
+
+YOU MAY NOT:
+
+  - Redistribute, resell, sublicense or publish the plugin file, in whole or in
+    part, or host it for download anywhere other than this repository.
+  - Decompile, disassemble or otherwise reverse engineer the plugin, or attempt
+    to derive its source code.
+  - Create or distribute derivative works based on it.
+  - Remove or alter this notice, the plugin's identity, or any authorship
+    information it contains.
+
+NO WARRANTY
+
+The software is provided "as is", without warranty of any kind, express or
+implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose and noninfringement. In no event shall the
+author be liable for any claim, damages or other liability, whether in an
+action of contract, tort or otherwise, arising from, out of or in connection
+with the software or its use.
+
+This license terminates automatically if you breach any of its terms.
