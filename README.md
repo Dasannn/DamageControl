@@ -39,6 +39,14 @@ All of these are soft dependencies. If a plugin is missing, Damage Control start
 3. Restart the server.
 4. Edit `plugins/DamageControl/config.yml` and reload with `/dc admin reload`.
 
+Only the `.jar` goes into `plugins/`. Each release also ships a `.jar.sha256` file, which you never install: it is the checksum the in-game updater uses to verify a download before accepting it, and it lets you confirm by hand that the file you downloaded is the one that was published.
+
+```powershell
+(Get-FileHash DamageControl-1.0.0.jar -Algorithm SHA256).Hash.ToLower()
+```
+
+Compare that against the contents of `DamageControl-1.0.0.jar.sha256`. If they differ, do not install the file.
+
 ## Commands
 
 Run `/dc help` in game for the list, filtered to what you can actually use.
